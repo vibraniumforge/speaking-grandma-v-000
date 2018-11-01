@@ -16,9 +16,11 @@
 def speak_to_grandma(phrase)
   if phrase=="I LOVE YOU GRANDMA!"
     return 'I LOVE YOU TOO PUMPKIN!'
-  elsif phrase.scan(/[a-z]/)
+  end
+  if phrase.scan(/[a-z]/)
     return "HUH?! SPEAK UP, SONNY!"
-  elsif phrase.scan(/[A-Z]/)
+  else 
     return "NO, NOT SINCE 1938!"
+  end
   end
 end
