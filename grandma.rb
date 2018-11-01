@@ -18,8 +18,8 @@ def speak_to_grandma(phrase)
     return 'I LOVE YOU TOO PUMPKIN!'
   end
   if phrase.scan(/[a-z]/)
-    return "HUH?! SPEAK UP, SONNY!"
+     "HUH?! SPEAK UP, SONNY!"
   else
-    return "NO, NOT SINCE 1938!"
+     "NO, NOT SINCE 1938!"
   end
 end
